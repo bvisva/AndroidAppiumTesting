@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "MobileSuite">
+<parameter name="selenium.chromedriver" value="webdriver.chrome.driver" />
+<parameter name="selenium.chromedriverurl" value="C:\\Users\\DELL\\eclipse-workspace\\BrowserDrivers\\chromedriver.exe" />
+
+   <test name = "testdemo">
+      <classes>
+         <class name = "androidtestrunners.AndroidTest" />     
+      </classes>
+   </test>
+   </suite>
